@@ -1,0 +1,62 @@
+* {
+    border: 1px solid lightgray;
+  }                  
+  
+
+
+
+main {
+    max-width: 100em;
+    font-family: Source Sans Pro;
+}
+
+.Logo {
+    max-width: 30em;
+}
+
+header {
+    background-color: blue;
+    text-decoration: none;   
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+#sociallinks {
+    color: white;
+}
+
+#LatestNews {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+img {
+    max-width: 400px;
+    height: auto;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+}
+
+#FindClub > h2 {
+    color: red;
+}
+
+#HowWatch {
+    background-color: red;
+    text-align: center;
+}
+
+#Sponsors {
+    text-align: center;
+}
